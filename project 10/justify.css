@@ -1,0 +1,97 @@
+/* display flex works with parent */
+/*  flex 1 works with child */
+
+*{
+ box-sizing: border-box;
+ width: 0;
+ height: 0;
+}
+.container{
+ margin: 20px auto;
+ background-color: rgb(122, 226, 192);
+ height: 50vh;
+ width: 50vw;
+ display: flex;
+ justify-content: space-around;
+}
+.container1{
+ margin: 20px auto;
+ background-color: lightgray;
+ height: 50vh;
+ width: 50vw;
+ display: flex;
+ justify-content: space-between;
+}
+.container2{
+ margin: 20px auto;
+ background-color: lightblue;
+ height: 50vh;
+ width: 50vw;
+ display: flex;
+ justify-content: space-evenly;
+}
+.container3{
+ margin: 20px auto;
+ background-color: lightgreen;
+ height: 50vh;
+ width: 50vw;
+ display: flex;
+ justify-content: center;
+}
+.container4{
+ margin: 20px auto;
+ background-color: rgb(236, 208, 155);
+ height: 50vh;
+ width: 50vw;
+ display: flex;
+ justify-content: flex-start;
+}
+.container5{
+ width: 50vw;
+ margin: 20px auto;
+ background-color: rgb(111, 114, 116);
+ height: fit-content;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 2px 4px;
+
+}
+.container6{
+ width: 50vw;
+ margin: 20px auto;
+ background-color: rgb(245, 245, 97);
+ height: 30vh;
+ display: flex;
+
+}
+.container7{
+ width: 50vw;
+ margin: 20px auto;
+ background-color: skyblue;
+ height: 30vh;
+ display: flex;
+
+}
+
+.box{
+ width: 50px;
+ height: 50px;
+ background-color: hotpink;
+ border: 1px solid black;
+
+}
+.box1{
+ flex: 1;
+}
+.box2{
+ flex: 2;
+}
+.box3{
+ flex: 3;
+}
+.boxx2{
+ align-self: flex-end;
+}
+.boxx3{
+ align-self: center;
+}

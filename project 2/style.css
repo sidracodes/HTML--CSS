@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/hero-bg.jpg);
+    
+}
+
+
+.container{
+ 
+font-family: 'Lora', serif;
+font-size: 30px;
+   
+}
+h1{
+    color: black;
+}
+.career{
+    color: blue; 
+}

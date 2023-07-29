@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+ * {
+ padding: 0%;
+ margin: 0%;
+ }
+ .card {
+ margin: 0 auto;
+ width: 600px;
+ padding: 1em;
+ border: 1px solid #CCC;
+ border-radius: 1em;
+ }
+ .card .card_head {
+ flex-direction: row;
+ background-color: #4a535a;
+ }
+ .card_head {
+ margin: auto;
+ display: flex;
+ }
+ 
+form label span {
+ color: red;
+ }
+ .card_head h3,
+ img {
+ margin: auto;
+ color: #fff;
+ }
+ .card_body {
+ padding-top: 20px;
+ background-color: #e0e7ed; }
+ .footer {
+ margin-left: 10%;
+ }
+ .footer_content{
+display: flex;
+flex-direction: row;
+ }
+ .footer_content label {
+ width: 20px;
+ padding-left: 20px; 
+ }
+ .footer_content div {
+ 
+ padding: 20px 0 20px 0;
+ }
+ p span{
+ color: red;
+ }
+ .icon {
+ padding: 25px;
+	 color: #fff;
+ width: 25px;
+ }
+ form {
+ /* Center the form on the page */
+ margin: 0 auto;
+ width: 500px;
+ /* Form outline */
+ }
+ ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ } form li+li {
+ margin-top: 1em;
+ }
+ form label {
+ /* Uniform size & alignment */
+ display: inline-block;
+ width: 150px;
+ text-align: right;
+ }
+ form input {
+ /* To make sure that all text fields have the same font settings
+By default, textareas have a monospace font */
+ font: 1em sans-serif;
+	 
+	 
+	 /* Uniform text field size */
+ width: 300px;
+ box-sizing: border-box;
+ /* Match form field borders */
+ border: 1px solid #999;
+ }
+ input:focus {
+ /* Additional highlight for focused elements */
+ border-color: #000;
+ }
+.footer_content input{
+ padding-left: 20px;
+ width: 20px;
+ 
+}
+.size {
+ width: 300px;
+height: 21px;
+}
+ 

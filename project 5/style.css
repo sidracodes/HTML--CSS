@@ -1,0 +1,53 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+.container{
+ height: 9600px;
+ width: 800px;
+ background-color: aqua;
+ margin: 10px auto;
+ color: aliceblue;
+}
+.container .child1{
+ height: 150px;
+ width: 150px;
+ position: relative;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%);
+ background-color: blueviolet;
+}
+.container .child2{
+ height: 150px;
+ width: 150px;
+/* The `position: fixed;` property is used to position an element relative to the browser window,
+regardless of scrolling. When an element has `position: fixed;`, it will stay in the same position
+even if the user scrolls the page. In the given code, the `.child2` element has `position: fixed;`,
+so it will stay fixed in its position on the screen, regardless of scrolling. */
+ position: fixed;
+  background-color: black;
+}
+.container .child3{
+ height: 150px;
+ width: 150px;
+/* The `position: static;` property is used to set the position of an element to its default position
+in the normal flow of the document. When an element has `position: static;`, it will be positioned
+according to the normal flow of the document, and the `top`, `right`, `bottom`, `left`, and
+`z-index` properties will have no effect on it. */
+ position: static;
+ background-color: rgb(255, 0, 191);
+}
+.container .child4{
+ height: 150px;
+ width: 150px;
+/* The `position: sticky;` property is used to make an element stick to a specific position on the
+screen when scrolling. In the given code, the `.child4` element has `position: sticky;` and `top:
+10px;`, which means that when the user scrolls, the element will stick to the top of the container
+with a 10px offset from the top. */
+ position: sticky;
+ top: 10px;
+ background-color: rgb(121, 121, 114);
+}
+

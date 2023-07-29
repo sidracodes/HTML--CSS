@@ -1,0 +1,30 @@
+/* we can not give height and width to inline property */
+/* we can give height and width to inline-block property */
+
+*{
+ box-sizing: border-box;
+ margin-top: 0;
+ padding: 0;
+}
+#div1{
+ width: 300px;
+height: 300px;
+ background-color: palevioletred;
+ display: inline-block;
+}
+#div2{
+ width: 300px;
+height: 300px;
+background-color: darkseagreen;
+display: inline-block;
+}
+.div{
+ margin-top: 50px;
+/* The `display: inherit;` property is used to inherit the value of the `display` property from its
+parent element. In this case, the `.div` class is inheriting the `display` property value from its
+parent element, which is either `#div1` or `#div2`. */
+ display: inherit;
+ height: 200px;
+width: 200px;
+background-color: blueviolet;
+}

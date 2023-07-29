@@ -1,0 +1,73 @@
+/* 
+types of selectors:
+---id (id is unique)
+---class (multiple elements can have same class names)
+---element (specific element)
+---universal (all)
+*/
+
+/* 
+
+percent:
+% takes width and height
+according to its parent
+
+view width,view height:
+vh and vw takes width and height
+according to your screnn/browser 
+ 
+ */
+
+ /* 
+ block level elements:
+starts with new line etc div
+
+ inline elements:
+ starts within a line etc span
+
+ 
+ */
+ 
+*{
+ box-sizing: border-box;
+ margin: 0 auto;
+ padding: 0;
+}
+.container{
+ background-color: aquamarine;
+ height: 80vh;
+ width: 80vw;
+}
+ .header{
+background-color: blueviolet;
+height: 10%;
+width: 100%;
+}
+.body{
+background-color: azure;
+height: 80%;
+width: 100%;
+}
+.footer{
+background-color: crimson;
+height: 10%;
+width: 100%;
+}
+.body .left{
+ background-color: rgb(231, 160, 174);
+ width: 33.33%;
+ height: 100%;
+ float: right;
+}
+.body .centre{
+ background-color: aquamarine;
+ width: 33.33%;
+ height: 100%;
+ float: right;
+}
+.body .right{
+ background-color: lightblue;
+ width: 33.33%;
+ height: 100%;
+ float: left;
+} 

@@ -1,0 +1,36 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+.navbar{
+ width: 100vw;
+ height: 10vh;
+ background-color: black;
+ display: flex;
+}
+.navbar .logo{
+ height: 100%;
+ width: 10%;
+ color: aliceblue;
+ letter-spacing: 0.5em;
+ /* justify-content and align-items works only with display: flex */
+ display: flex;
+ /* when flex direction is row: allign in center from right to left */
+ justify-content: center; 
+  /* when flex direction is row: allign in center from top to bottom */
+  align-items: center;
+}
+.navbar .list{
+ height: inherit;
+ width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar .list li{
+ list-style: none;
+ color: aliceblue;
+ margin-right: 60px;
+ 
+}
